@@ -1,0 +1,96 @@
+% TCGA-BRCA. Compile: pdflatex, biber, pdflatex, pdflatex.
+% Template sourced from Paul's Notes, a recycled and emptied manuscript template.
+% it compiles. 
+
+% README .tex must be compiled through BIBER, to include references! 
+% in tex shop select pdflatexmk, from the drop down menu!
+
+
+
+% ============================================================
+% TeXShop Compilation Guide (macOS)
+% ============================================================
+% 1. Place the .tex and .bib files in the same directory.
+% 2. Open the .tex file in TeXShop.
+% 3. Select "pdflatexmk" from the Typeset dropdown.
+% 4. Click "Typeset" to compile the manuscript.
+% 5. pdflatexmk automatically handles the required LaTeX
+%    and Biber passes when properly configured.
+%
+% Citations: \parencite{reference_key}
+% References: \printbibliography[title={References}]
+%
+% If citations fail, run the following in Terminal:
+%   pdflatex manuscript.tex
+%   biber manuscript
+%   pdflatex manuscript.tex
+%   pdflatex manuscript.tex
+%
+% Replace "manuscript" with the actual filename.
+% ============================================================
+% !TEX TS-program = pdflatexmk
+
+%End readme.
+
+
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage[margin=1in,headheight=15pt]{geometry}
+\usepackage{setspace,fancyhdr,titlesec}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=apa]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+%this is how we pipe in the bibliography, 
+%if you use a staged .bib in git, for professional work, it go much faster then hand type.
+%in git hub, place .bib into a list, then call the list. each ref is object -> pipe into call.
+\addbibresource{Skeffington_Paul_TCGA_BRCA_References.bib}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{fancy}\fancyhf{}\fancyhead[R]{\thepage}\renewcommand{\headrulewidth}{0pt}
+\doublespacing\raggedright\setlength{\parindent}{0.5in}\setlength{\parskip}{0pt}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\normalfont\normalsize\bfseries\filcenter}{}{0pt}{}
+\titlespacing{\section}{0pt}{\baselineskip}{0.5\baselineskip}
+\setlength{\bibhang}{0.5in}
+\newcommand{\papertitle}{TCGA-BRCA: Gene Expression and PAM50 Visualization}
+\begin{document}
+% cover page.
+\begin{titlepage}
+\thispagestyle{fancy}
+\vspace*{1.6in}
+\begin{center}
+\textbf{\papertitle}\\[2\baselineskip]
+Paul A. Skeffington\\
+Master of Science in Health Data Science\\
+Geisel School of Medicine at Dartmouth\\[\baselineskip]
+Foundations in Data Science\\
+HSE.711-FA26 \textbar{} HDOFA26\\
+Instructor: Dr. Shira Fisher\\
+Teaching Assistant: Erica Paulos\\[\baselineskip]
+\today
+\end{center}
+\end{titlepage}
+\setcounter{page}{2}
+\begin{center}\textbf{\papertitle}\end{center}
+
+
+%peroid goes after \parencite!
+
+\section*{Introduction}
+Breast cancer represents a major global public health dilemma requiring multinational synergy in research, and pharmaceutical development. In 2024, approximately 2.4 million women were diagnosed with breast cancer world-wide, with an estimated 694,000 associated deaths\parencite{who2026breast}. Despite advances in screening, and treatment, breast cancer remains a biologically heterogeneous disease, with considerable variable in molecular characteristic and clinical behavior.
+
+Through the contribution of scientists globally, gene-expression research has identified distinct molecular subtypes, Luminal A, Luminal B, Her-2 enriched, and Basal-like breast cancers \parencite{parker2009}. The classifications demonstrate differences in tumor biology and give researcher a frame work for investigating variance in gene expressions. The Cancer Genome Atlas (TCGA), has established an extensive molecular database for investigating breast cancer heterogeneity \parencite{tcga2012}.
+
+\section*{Methods}
+We examine the supplied gene-expression matrix (\texttt{counts.csv}) and associated annotations (\texttt{meta\_data.csv}). [State the verified data origin and assay, how sample identifiers were matched, the selected sample types, exclusions, and the exact subtype field.] [Describe any gene filtering, normalization or transformation, z-score calculation, and how genes were selected for visualization.] Descriptive summaries and a heatmap characterize the selected cohort. An illustrative volcano plot displays a specified between-group contrast; [state the actual comparison, computation of effect sizes and p-values, and any adjustment]. Unless a suitable count-based model was fitted, the contrast is descriptive rather than confirmatory \parencite{love2014,benjamini1995}.
+
+
+\section*{Results}
+[Report the final matched sample count and the molecular subtype distribution, including denominators and missing annotations.] [Report only reproducible descriptive findings from the expression summaries.] [Insert the final heatmap and briefly describe its most relevant visible patterns, noting that z-score tails are not significance tests.] [Insert the final volcano plot and identify the groups, axes, thresholds, and limitations; do not interpret illustrative highlights as validated differential expression.]
+
+\newpage
+\printbibliography[title={References}]
+\end{document}
