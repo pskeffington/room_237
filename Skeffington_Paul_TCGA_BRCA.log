@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 OCT 2026 20:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 OCT 2026 21:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,112 +840,113 @@ ocal/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 ]
 
 [3]
-
-[4]
-<figures/pam50_spiral.pdf, id=38, 505.89pt x 325.215pt>
-File: figures/pam50_spiral.pdf Graphic file (type pdf)
-<use figures/pam50_spiral.pdf>
-Package pdftex.def Info: figures/pam50_spiral.pdf  used on input line 166.
-(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
-<figures/esr1_histogram.pdf, id=39, 505.89pt x 325.215pt>
-File: figures/esr1_histogram.pdf Graphic file (type pdf)
-<use figures/esr1_histogram.pdf>
-Package pdftex.def Info: figures/esr1_histogram.pdf  used on input line 175.
-(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
-<figures/esr1_sample_type.pdf, id=40, 505.89pt x 325.215pt>
-File: figures/esr1_sample_type.pdf Graphic file (type pdf)
-<use figures/esr1_sample_type.pdf>
-Package pdftex.def Info: figures/esr1_sample_type.pdf  used on input line 183.
-(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
-
-
-[5
-
- <./figures/pam50_spiral.pdf> <./figures/esr1_histogram.pdf>]
-<figures/esr1_subtype.pdf, id=62, 505.89pt x 325.215pt>
-File: figures/esr1_subtype.pdf Graphic file (type pdf)
-<use figures/esr1_subtype.pdf>
-Package pdftex.def Info: figures/esr1_subtype.pdf  used on input line 191.
-(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
-<figures/gene_scatter.pdf, id=63, 505.89pt x 325.215pt>
-File: figures/gene_scatter.pdf Graphic file (type pdf)
-<use figures/gene_scatter.pdf>
-Package pdftex.def Info: figures/gene_scatter.pdf  used on input line 199.
-(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
-
-
-[6 <./figures/esr1_sample_type.pdf> <./figures/esr1_subtype.pdf>]
-<figures/gene_heatmap.pdf, id=94, 794.97pt x 433.62pt>
-File: figures/gene_heatmap.pdf Graphic file (type pdf)
-<use figures/gene_heatmap.pdf>
-Package pdftex.def Info: figures/gene_heatmap.pdf  used on input line 207.
-(pdftex.def)             Requested size: 469.75502pt x 256.23718pt.
-<figures/gene_volcano.pdf, id=95, 505.89pt x 325.215pt>
-File: figures/gene_volcano.pdf Graphic file (type pdf)
-<use figures/gene_volcano.pdf>
-Package pdftex.def Info: figures/gene_volcano.pdf  used on input line 216.
-(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
-
-
-[7 <./figures/gene_scatter.pdf> <./figures/gene_heatmap.pdf>]
-
-[8 <./figures/gene_volcano.pdf>]
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 233.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ 172.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 233.
+ 172.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 233.
+ 172.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 233.
+ 172.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-33.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+72.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 233.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 233.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 233.
-
-(./figures/gene_summary.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-) (./figures/esr1_by_subtype.tex)
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
 
-[9
 
-]
+[4]
+
+[5]
+<figures/pam50_spiral.pdf, id=45, 505.89pt x 325.215pt>
+File: figures/pam50_spiral.pdf Graphic file (type pdf)
+<use figures/pam50_spiral.pdf>
+Package pdftex.def Info: figures/pam50_spiral.pdf  used on input line 207.
+(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
+<figures/esr1_histogram.pdf, id=46, 505.89pt x 325.215pt>
+File: figures/esr1_histogram.pdf Graphic file (type pdf)
+<use figures/esr1_histogram.pdf>
+Package pdftex.def Info: figures/esr1_histogram.pdf  used on input line 216.
+(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
+<figures/esr1_sample_type.pdf, id=47, 505.89pt x 325.215pt>
+File: figures/esr1_sample_type.pdf Graphic file (type pdf)
+<use figures/esr1_sample_type.pdf>
+Package pdftex.def Info: figures/esr1_sample_type.pdf  used on input line 224.
+(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
+
+
+[6
+
+ <./figures/pam50_spiral.pdf> <./figures/esr1_histogram.pdf>]
+<figures/esr1_subtype.pdf, id=69, 505.89pt x 325.215pt>
+File: figures/esr1_subtype.pdf Graphic file (type pdf)
+<use figures/esr1_subtype.pdf>
+Package pdftex.def Info: figures/esr1_subtype.pdf  used on input line 232.
+(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
+<figures/gene_scatter.pdf, id=70, 505.89pt x 325.215pt>
+File: figures/gene_scatter.pdf Graphic file (type pdf)
+<use figures/gene_scatter.pdf>
+Package pdftex.def Info: figures/gene_scatter.pdf  used on input line 240.
+(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
+
+
+[7 <./figures/esr1_sample_type.pdf> <./figures/esr1_subtype.pdf>]
+<figures/gene_heatmap.pdf, id=102, 794.97pt x 433.62pt>
+File: figures/gene_heatmap.pdf Graphic file (type pdf)
+<use figures/gene_heatmap.pdf>
+Package pdftex.def Info: figures/gene_heatmap.pdf  used on input line 248.
+(pdftex.def)             Requested size: 469.75502pt x 256.23718pt.
+<figures/gene_volcano.pdf, id=103, 505.89pt x 325.215pt>
+File: figures/gene_volcano.pdf Graphic file (type pdf)
+<use figures/gene_volcano.pdf>
+Package pdftex.def Info: figures/gene_volcano.pdf  used on input line 257.
+(pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
+
+
+[8 <./figures/gene_scatter.pdf> <./figures/gene_heatmap.pdf>]
+
+[9 <./figures/gene_volcano.pdf>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 274.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 274.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 274.
+ (./figures/gene_summary.tex)
+(./figures/esr1_by_subtype.tex)
 
 [10
 
+]
+
+[11
+
 
 ]
 
-[11] (./Skeffington_Paul_TCGA_BRCA.aux)
+[12] (./Skeffington_Paul_TCGA_BRCA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -962,23 +963,24 @@ Package logreq Info: Writing requests to 'Skeffington_Paul_TCGA_BRCA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21750 strings out of 473190
- 387826 string characters out of 5715801
- 1342856 words of memory out of 5000000
+ 21760 strings out of 473190
+ 387880 string characters out of 5715801
+ 1342832 words of memory out of 5000000
  44716 multiletter control sequences out of 15000+600000
- 592864 words of font info for 90 fonts, out of 8000000 for 9000
+ 596352 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,12n,81p,715b,5237s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></u
-sr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
-exlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/202
-5/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Skeffington_Paul_TCGA_BRCA.pdf (11 pages, 645458 bytes).
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025
+/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Skeffington_Paul_TCGA_BRCA.pdf (12 pages, 664009 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
