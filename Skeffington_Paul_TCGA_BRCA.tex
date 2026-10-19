@@ -119,42 +119,16 @@ Two genes, ESR1 and ERBB2, were selected for their associations with estrogen si
 % ============================================================
 % Methods — IN PROGRESS
 % ============================================================
-%Beautify applied
 
 \section*{The Data}
 
-The research examined a gene-expression count matrix
-(\texttt{counts.csv}) and associated sample metadata
-(\texttt{meta\_data.csv}) provided through the Foundations
-in Data Science course (HSE.711) at the Geisel School of
-Medicine at Dartmouth.
+The research examined a gene-expression count matrix (\texttt{counts.csv}) and associated sample metadata (\texttt{meta\_data.csv}) provided through the Foundations in Data Science course (HSE.711) at the Geisel School of Medicine at Dartmouth.
 
-The files were attributed to The Cancer Genome Atlas
-Breast Invasive Carcinoma (TCGA-BRCA) project. The results
-presented here are based, in whole or in part, on data
-attributed to the
-\href{https://www.cancer.gov/tcga}{TCGA Research Network}.
-Although the supplied data closely resemble TCGA-BRCA
-records, the original acquisition methods, processing
-procedures, and provenance of the course-distributed
-files have not been independently verified. Consequently,
-the precise relationship between the supplied files and
-the original TCGA-BRCA release remains pending independent validation. 
+The files were attributed to The Cancer Genome Atlas Breast Invasive Carcinoma (TCGA-BRCA) project. The results presented here are based, in whole or in part, on data attributed to the \href{https://www.cancer.gov/tcga}{TCGA Research Network}. Although the supplied data closely resemble TCGA-BRCA records, the original acquisition methods, processing procedures, and provenance of the course-distributed files have not been independently verified. Consequently, the precise relationship between the supplied files and the original TCGA-BRCA release remains pending independent validation.
 
+The dataset contained 60,660 gene-level measurements across 1,231 samples, accompanied by sample annotations.
 
-The dataset contained 60,660 gene-level measurements
-across 1,231 samples, accompanied by sample annotations. 
-
-TCGA was made possible through the voluntary contributions
-of patients who consented to the use of their biological
-specimens and associated clinical information for cancer
-research. These contributions enabled substantial advances
-in the genomic and molecular characterization of cancer.
-TCGA established informed-consent procedures and data-access
-safeguards to protect participants while supporting
-scientific research. The contributions of these patients
-continue to advance our understanding of breast cancer
-heterogeneity.
+TCGA was made possible through the voluntary contributions of patients who consented to the use of their biological specimens and associated clinical information for cancer research. These contributions enabled substantial advances in the genomic and molecular characterization of cancer. TCGA established informed-consent procedures and data-access safeguards to protect participants while supporting scientific research. The contributions of these patients continue to advance our understanding of breast cancer heterogeneity.
 
 % ============================================================
 % METHODS — CLEANED 
@@ -178,20 +152,48 @@ An exploratory volcano plot compared primary tumor and solid tissue normal sampl
 The volcano plot illustrated a log2 ratio threshold of $\pm 1$ and an adjusted p-value threshold of 0.05. Because this analysis did not account for sample pairing, batch effects, or RNA-seq count dispersion using a suitable count-based model, the results were interpreted as \textbf{exploratory rather than confirmatory} \parencite{love2014}.
 
 
+
 % ============================================================
-% RESULTS — IN PROGRESS
+% Results
 % ============================================================
 \section*{Results}
 
-[Report the final matched sample count and molecular subtype distribution, including denominators and missing annotations.]
+The course-supplied gene-expression dataset contained 60,660 gene-level measurements across 1,231 matched samples. Of the 1,111 primary tumor samples, 1,099 had recorded PAM50 molecular subtype classifications, while 12 were excluded from subtype-specific comparisons because their classifications were missing. Luminal A represented the largest group, accounting for 571 samples (52.0\%), followed by Luminal B with 209 (19.0\%), Basal with 197 (17.9\%), HER2-enriched with 82 (7.5\%), and Normal-like with 40 (3.6\%). The distribution is presented in Figure~1 and Table~1. The spiral visualization illustrates the relative proportions of the recorded molecular subtypes; its spatial arrangement does not represent biological relationships.
 
-[Report reproducible descriptive findings from the gene-expression summaries.]
+ESR1 and ERBB2 gene-expression measurements were examined across all 1,231 matched samples. ESR1 exhibited a mean raw count of 31,442.2 and a median of 17,561, while ERBB2 exhibited a mean of 46,982.5 and a median of 19,125. For both genes, the mean exceeded the median, suggesting positively skewed distributions with higher-count observations influencing the average. The ESR1 distribution is presented in Figure~2, with descriptive statistics summarized in Table~2.
 
-[Reference the final heatmap and briefly describe its most relevant expression patterns, noting that Z-score tails do not represent statistical significance.]
+ESR1 expression was further examined across tissue types and PAM50 molecular subtypes. Figure~3 illustrates the distribution of ESR1 measurements among primary tumor, solid tissue normal, and metastatic samples. Among primary tumors with recorded PAM50 classifications, Luminal B demonstrated the highest median ESR1 raw count (40,849), followed by Luminal A (29,436). Basal tumors exhibited the lowest median (262), followed by HER2-enriched tumors (652.5). These descriptive differences are illustrated in Figure~4 and summarized in Table~3. No inferential significance is implied by the subtype distributions alone.
 
-[Reference the final volcano plot and identify the comparison groups, axes, thresholds, and methodological limitations. Do not interpret exploratory highlights as validated differential-expression findings.]
+The relationship between ESR1 and ERBB2 expression was evaluated using linear regression of log-transformed raw counts. The model produced an R-squared value of 0.017, indicating that approximately 1.7\% of the observed variation in log-transformed ERBB2 counts was explained by the fitted linear relationship with ESR1 counts. Although the reported p-value was below 0.001, the low R-squared value indicates a weak linear association in the analyzed samples. The relationship is illustrated in Figure~5.
 
+A heatmap was generated using ten selected breast cancer-associated genes to examine relative expression patterns across samples. Row-wise Z-score standardization allowed gene-expression measurements to be displayed relative to each gene's observed distribution. The heatmap included tissue-type and PAM50 subtype annotations, alongside summaries of Z-score tails. These displays provide a descriptive comparison of expression variability and do not represent independent tests of statistical significance. The heatmap is presented in Figure~6.
 
+An exploratory volcano plot compared primary tumor and solid tissue normal samples across 1,859 displayed genes. The horizontal axis represented the log2 ratio of mean counts per million (CPM), calculated using a pseudocount of one, while the vertical axis represented the negative log10 of Benjamini--Hochberg-adjusted Welch p-values. Illustrative thresholds were established at an absolute log2 ratio of 1 and an adjusted p-value of 0.05. Several selected genes, including ESR1, ERBB2, EGFR, and MKI67, were labeled to assist visual interpretation. The comparison did not account for sample pairing, batch effects, or RNA-seq count dispersion; consequently, the highlighted observations should not be interpreted as validated differential-expression findings. The exploratory comparison is presented in Figure~7.
+
+% ============================================================
+% Discussion — IN PROGRESS
+% ============================================================
+\section*{Discussion}
+
+This discussion reflects on the experiential learning outcomes achieved throughout the course.
+
+LaTeX has been my primary reporting tool since 2015; however, following an injury sustained while working in a correctional facility, I have become significantly slower at manual typing and document preparation than I was before my injury. That said, this course provided a strong refresher in foundational data preparation and presentation.
+
+Throughout the past 20 years, much of my professional and academic work has involved producing, editing, and polishing analytical products for review. Although many of the course activities reinforced existing skills, I learned several key practices that I intend to carry forward.
+
+1. Always use vector-based PDF graphics when importing figures into LaTeX documents, rather than relying on raster image formats. Vector graphics preserve their clarity when resized, which is particularly important for scientific reporting.
+
+2. My father taught me at a young age to use \texttt{cd \textasciitilde} to return to the home directory, rather than relying on \texttt{cd ..} to move up one directory level. The purpose was to teach me deliberate navigation through directory structures, rather than moving backward through them.
+
+3. I had never created a heatmap, spiral chart, or volcano plot before this course. The spiral chart was my favorite. I was attempting to recreate a visualization similar to one I saw at a neurology conference this summer, and the exercise provided an opportunity to experiment with a new approach to presenting complex data.
+
+4. I strengthened my pipelines for incorporating \texttt{.tex} files, \texttt{.bib} reference libraries, and externally generated figures and tables into LaTeX documents. This allows me to update and recompile reports more efficiently while maintaining direct, manual control over the reporting process.
+
+5. Paul's Notes, I have found the principle if I can teach material, then I have mastered material. Thus, when working on a new course, or project I aim to be able to write a text about said research. If I am competent enough to be able to deliver with confidence, the work created, mechanisms, and means, then that is how I define mastery of a given subject. That's why I made my notes, which allowed me to learn specifically about breast cancer, the researchers, and more importantly the selfless donations made by our patients. At the end of the day, our patients are the ones we are responsible for. 
+
+Overall, this course reinforced my existing technical foundations while introducing new approaches to scientific visualization and document preparation. To continue along my learning path, I am studying machine learning using Rust. Throughout the short duration of this course, I was able to attend three global health events and develop a working interactive resume, CV, professional portfolio, news reader, and job board. These projects were developed in conjunction with my career development activities and are featured components of my professional portfolio. [In addition to my development of my foundation/daily work]
+
+My primary learning focus has now shifted toward machine learning model training, with particular emphasis on improving the detection of spatial variance in and around tumor sites. I have been examining the underlying mathematics and algorithmic approaches; however, the next stage of my research will require moving beyond gene-expression count data to incorporate spatially resolved imaging and topological information. This transition will allow me to investigate whether spatial patterns and structural variations in tissue provide additional information for identifying tumor boundaries and characterizing tumor heterogeneity.
 
 % ============================================================
 % FIGURES — FIGURES WORKING NO TOUCH
