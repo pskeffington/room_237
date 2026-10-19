@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 OCT 2026 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 OCT 2026 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -680,7 +680,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 87
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 94
 .
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -689,27 +689,30 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 
 LaTeX Warning: Label `tab:export-latex-tables' multiply defined.
 
+
+LaTeX Warning: Label `tab:export-latex-tables' multiply defined.
+
 )
 \openout1 = `Skeffington_Paul_TCGA_BRCA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count437
@@ -821,9 +824,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Skeffington_Paul_TCGA_BRCA.bbl' found.
 
 (./Skeffington_Paul_TCGA_BRCA.bbl)
-Package biblatex Info: Reference section=0 on input line 87.
-Package biblatex Info: Reference segment=0 on input line 87.
-Package hyperref Info: Link coloring ON on input line 87.
+Package biblatex Info: Reference section=0 on input line 94.
+Package biblatex Info: Reference segment=0 on input line 94.
+Package hyperref Info: Link coloring ON on input line 94.
  (./Skeffington_Paul_TCGA_BRCA.out)
 (./Skeffington_Paul_TCGA_BRCA.out)
 \@outlinefile=\write4
@@ -836,45 +839,45 @@ ocal/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ]
 
-[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-]
+[2]
 
-[3]
+[3{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+]
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 146.
+ 159.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 146.
+ 159.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 146.
+ 159.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 146.
+ 159.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-46.
+59.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 159.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 159.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 159.
 
 
 [4]
@@ -882,77 +885,66 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 [5]
 
 [6]
-
-[7]
-
-[8]
-<figures/pam50_spiral.pdf, id=58, 505.89pt x 325.215pt>
+<figures/pam50_spiral.pdf, id=64, 505.89pt x 325.215pt>
 File: figures/pam50_spiral.pdf Graphic file (type pdf)
 <use figures/pam50_spiral.pdf>
-Package pdftex.def Info: figures/pam50_spiral.pdf  used on input line 209.
+Package pdftex.def Info: figures/pam50_spiral.pdf  used on input line 211.
 (pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
-<figures/esr1_histogram.pdf, id=59, 505.89pt x 325.215pt>
+<figures/esr1_histogram.pdf, id=65, 505.89pt x 325.215pt>
 File: figures/esr1_histogram.pdf Graphic file (type pdf)
 <use figures/esr1_histogram.pdf>
-Package pdftex.def Info: figures/esr1_histogram.pdf  used on input line 218.
+Package pdftex.def Info: figures/esr1_histogram.pdf  used on input line 220.
 (pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
-<figures/esr1_sample_type.pdf, id=60, 505.89pt x 325.215pt>
+<figures/esr1_sample_type.pdf, id=66, 505.89pt x 325.215pt>
 File: figures/esr1_sample_type.pdf Graphic file (type pdf)
 <use figures/esr1_sample_type.pdf>
-Package pdftex.def Info: figures/esr1_sample_type.pdf  used on input line 226.
+Package pdftex.def Info: figures/esr1_sample_type.pdf  used on input line 228.
 (pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
 
 
-[9
+[7
 
  <./figures/pam50_spiral.pdf> <./figures/esr1_histogram.pdf>]
-<figures/esr1_subtype.pdf, id=82, 505.89pt x 325.215pt>
+<figures/esr1_subtype.pdf, id=87, 505.89pt x 325.215pt>
 File: figures/esr1_subtype.pdf Graphic file (type pdf)
 <use figures/esr1_subtype.pdf>
-Package pdftex.def Info: figures/esr1_subtype.pdf  used on input line 234.
+Package pdftex.def Info: figures/esr1_subtype.pdf  used on input line 236.
 (pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
-<figures/gene_scatter.pdf, id=83, 505.89pt x 325.215pt>
+<figures/gene_scatter.pdf, id=88, 505.89pt x 325.215pt>
 File: figures/gene_scatter.pdf Graphic file (type pdf)
 <use figures/gene_scatter.pdf>
-Package pdftex.def Info: figures/gene_scatter.pdf  used on input line 242.
+Package pdftex.def Info: figures/gene_scatter.pdf  used on input line 244.
 (pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
 
 
-[10 <./figures/esr1_sample_type.pdf> <./figures/esr1_subtype.pdf>]
-<figures/gene_heatmap.pdf, id=114, 794.97pt x 433.62pt>
+[8 <./figures/esr1_sample_type.pdf> <./figures/esr1_subtype.pdf>]
+<figures/gene_heatmap.pdf, id=117, 1011.78pt x 578.16pt>
 File: figures/gene_heatmap.pdf Graphic file (type pdf)
 <use figures/gene_heatmap.pdf>
-Package pdftex.def Info: figures/gene_heatmap.pdf  used on input line 250.
-(pdftex.def)             Requested size: 469.75502pt x 256.23718pt.
-<figures/gene_volcano.pdf, id=115, 505.89pt x 325.215pt>
+Package pdftex.def Info: figures/gene_heatmap.pdf  used on input line 252.
+(pdftex.def)             Requested size: 469.75502pt x 268.4358pt.
+<figures/gene_volcano.pdf, id=118, 505.89pt x 325.215pt>
 File: figures/gene_volcano.pdf Graphic file (type pdf)
 <use figures/gene_volcano.pdf>
-Package pdftex.def Info: figures/gene_volcano.pdf  used on input line 259.
+Package pdftex.def Info: figures/gene_volcano.pdf  used on input line 261.
 (pdftex.def)             Requested size: 399.29463pt x 256.69373pt.
 
 
-[11 <./figures/gene_scatter.pdf> <./figures/gene_heatmap.pdf>]
+[9 <./figures/gene_scatter.pdf> <./figures/gene_heatmap.pdf>]
 
-[12 <./figures/gene_volcano.pdf>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 276.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 276.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 276.
- (./figures/gene_summary.tex)
-(./figures/esr1_by_subtype.tex)
+[10 <./figures/gene_volcano.pdf>] (./figures/pam50_distribution.tex)
+(./figures/gene_summary.tex) (./figures/esr1_by_subtype.tex)
 
-[13
+[11
 
 ]
 
-[14
+[12
 
 
 ]
 
-[15] (./Skeffington_Paul_TCGA_BRCA.aux)
+[13] (./Skeffington_Paul_TCGA_BRCA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -969,13 +961,13 @@ Package logreq Info: Writing requests to 'Skeffington_Paul_TCGA_BRCA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21767 strings out of 473190
- 387947 string characters out of 5715801
- 1342863 words of memory out of 5000000
- 44720 multiletter control sequences out of 15000+600000
- 596352 words of font info for 99 fonts, out of 8000000 for 9000
+ 21747 strings out of 473190
+ 387774 string characters out of 5715801
+ 1343401 words of memory out of 5000000
+ 44704 multiletter control sequences out of 15000+600000
+ 585728 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,12n,81p,866b,5237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,12n,81p,840b,5237s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
@@ -983,10 +975,10 @@ usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Skeffington_Paul_TCGA_BRCA.pdf (15 pages, 669271 bytes).
+Output written on Skeffington_Paul_TCGA_BRCA.pdf (13 pages, 669263 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
